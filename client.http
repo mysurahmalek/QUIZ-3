@@ -1,0 +1,16 @@
+POST http://localhost:3000/login 
+Content-Type: application/json 
+ 
+{ 
+    "username": "bob", 
+    "password": "ILikeToFixIt" 
+} 
+ 
+### 
+ 
+GET http://localhost:3000/hello 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiJJTGlrZVRvRml4SXQiLCJuYW1lIjoiQm9iVGhlQnVpbGRlciIsImVtYWlsIjoiYm9iQGZpeGl0LmNvbSIsImlhdCI6MTY4MTEwNzk3OSwiZXhwIjoxNjgxMTExNTc5fQ.mhLoy-k121L6EmTv9n0otD7_gWDYZ7Joo-9p6C7X04c 
+ 
+### 
+ 
+GET http://localhost:3000/
